@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 
 
 gem 'devise'
+gem 'omniauth-facebook'
+
 
 gem 'toastr-rails'
 gem 'font-awesome-rails'
