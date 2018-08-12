@@ -38,6 +38,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'omniauth-facebook'
 
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'jquery-rails'
 
 gem 'toastr-rails'
 gem 'font-awesome-rails'
