@@ -36,7 +36,19 @@ gem 'jbuilder', '~> 2.5'
 
 
 gem 'devise'
+# gem 'omniauth-facebook'
+# gem 'omniauth-google-oauth2', '~> 0.2.2'
+
+gem 'omniauth-oauth2'
+gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-gplus'
+gem 'omniauth-linkedin'
+gem 'omniauth-instagram'
+gem 'omniauth-google-oauth2'
+
+
 
 gem 'bootstrap-sass', '~> 3.3.7'
 gem 'jquery-rails'
