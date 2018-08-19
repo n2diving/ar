@@ -44,7 +44,6 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'
 gem 'omniauth-gplus'
-gem 'omniauth-linkedin'
 gem 'omniauth-instagram'
 gem 'omniauth-google-oauth2'
 
@@ -65,6 +64,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'dotenv-rails'
 end
 
 group :development do
