@@ -30,7 +30,7 @@ class User < ApplicationRecord
   devise :omniauthable, :database_authenticatable, :registerable,:recoverable, :rememberable, :trackable
 
   def self.create_from_omniauth(params)
-    self.send(params.provider,params)
+    self.send(params.provider, params)
   end
 
 end

@@ -258,6 +258,8 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   config.omniauth :facebook, ENV['facebook_app_id'], ENV['facebook_secret_key'], token_params: { parse: :json }
+  config.omniauth :google_oauth2, ENV['google_client_id'], ENV['google_client_secret_key'], access_type: "online"
+
   # config.omniauth :facebook, facebook_app_id , facebook_secret_key , :display => "popup" , :scope => 'email,publish_actions', info_fields: 'email,name'
   # config.omniauth :gplus , gplus_app_id ,gplus_secret_key , :display => "popup" , scope: 'userinfo.email, userinfo.profile'
 
